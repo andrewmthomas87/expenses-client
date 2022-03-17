@@ -1,5 +1,6 @@
 import { colors, createTheme, Theme } from '@mui/material'
-import { ColorMode } from './hooks/colorMode'
+
+export type ColorMode = 'light' | 'dark'
 
 const lightTheme = createTheme({
 	palette: {

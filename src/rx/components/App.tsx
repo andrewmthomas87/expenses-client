@@ -1,8 +1,8 @@
 import { CssBaseline, Theme, ThemeProvider } from '@mui/material'
-import { ColorMode, useColorMode } from 'hooks/colorMode'
 import { useObservable, useObservableEagerState } from 'observable-hooks'
+import { useColorMode } from 'rx/hooks/colorMode'
 import { map, Observable } from 'rxjs'
-import { themeForColorMode } from 'theme'
+import { ColorMode, themeForColorMode } from 'theme'
 import Expenses from './expenses'
 import Nav from './Nav'
 

@@ -1,6 +1,6 @@
 import { useObservable, useObservableState } from 'observable-hooks'
+import { Resource } from 'rx/util/resource'
 import { map, Observable } from 'rxjs'
-import { Resource } from 'util/resource'
 
 export function useResourceObservableState<T, P, O = P>(
 	resource$: Observable<Resource<T>>,

@@ -1,5 +1,5 @@
 import { Chip, Paper, Skeleton, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material'
-import { Expense } from 'services/api'
+import { Expense } from 'rx/services/api'
 
 type Props = {
 	filteredExpenses: Expense[]

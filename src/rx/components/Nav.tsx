@@ -1,8 +1,8 @@
 import { DarkMode as DarkModeIcon, LightMode as LightModeIcon } from '@mui/icons-material'
 import { AppBar, Box, IconButton, Toolbar, Typography } from '@mui/material'
-import { ColorMode } from 'hooks/colorMode'
 import { useObservable, useObservableEagerState } from 'observable-hooks'
 import { map, Observable } from 'rxjs'
+import { ColorMode } from 'theme'
 
 type Props = {
 	colorMode$: Observable<ColorMode>

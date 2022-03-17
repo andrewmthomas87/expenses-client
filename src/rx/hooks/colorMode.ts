@@ -1,7 +1,6 @@
 import { useObservableCallback, useSubscription } from 'observable-hooks'
 import { Observable, scan, startWith } from 'rxjs'
-
-export type ColorMode = 'light' | 'dark'
+import { ColorMode } from 'theme'
 
 type UseColorMode = {
 	colorMode$: Observable<ColorMode>

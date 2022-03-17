@@ -11,9 +11,9 @@ import {
 	Stack,
 	TextField,
 } from '@mui/material'
-import { useObservableAndState, useObservableAndStateEager } from 'hooks/observable'
 import { pluckCurrentTargetValue, useObservable, useObservableCallback } from 'observable-hooks'
 import { ChangeEvent } from 'react'
+import { useObservableAndState, useObservableAndStateEager } from 'rx/hooks/observable'
 import { combineLatestWith, map, Observable, of, skip, startWith } from 'rxjs'
 import { AddExpenseModalEvent, AddExpenseModalState, Meta } from './expenses'
 
